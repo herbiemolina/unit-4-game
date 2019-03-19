@@ -62,7 +62,3 @@ var randomNum = function(min,max){
     
 }
 
-// var randomOpt = function()  {
-//     for (i = 0; )
-// }
-
