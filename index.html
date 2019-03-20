@@ -1,29 +1,28 @@
 <!DOCTYPE html>>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <title>crystals and numbers</title>
-    <style type="text/css">
-        .crystal-image {
-            width: 300px;
-            height: 300px;
-        }
-        </style>
+    
+        
 </head>
+
+<header>
+    <h1>Welcome to the Crystal Game!</h1>
+    <li>Click on the crystals to collect points</li>
+    <li>To win aim for the Magic Number, but don't go over!</li>
+</header>
 <body>
 
-    <h1>Number to Get: <span id="number-to-guess"></span></h1>
-    <ul>
-        <li id="wins"></li>
-        <li id="losses"></li>
-    </ul>
+    <h1>Magic Number: <span id="number-to-guess"></span></h1>
+    <div id="score">
+        <div id="wins">Wins:</div>
+        <div id="losses">Losses:</div>
+    </div>
     <div id="crystals">
     </div>
     
